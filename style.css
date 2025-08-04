@@ -1,0 +1,325 @@
+body{
+    margin: 0px;
+    background-color:rgb(16, 6, 54);
+    color:white;
+     font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-padding-top: 80px; /* or equal to your navbar height */
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:rgb(4, 1, 19);
+    height:70px;
+    color:white;
+     position: sticky;
+    top: 0;
+     z-index: 1000;
+    
+}
+.color{
+    color:rgb(142, 62, 19);
+    font-size:25px;
+}
+
+ul{
+    display:flex;
+   
+   
+}
+li{
+   list-style: none;
+   margin:0 23px; 
+   
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+li a:hover{
+      color:rgb(142, 62, 19);
+      font-size:1rem;
+}
+.homesection{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.purple{
+    color:rgb(167, 72, 21);
+}
+.left{
+   
+    justify-content: center;
+    font-size: 2rem;   
+  align-items: center; 
+ 
+
+ 
+  margin-top:-90px;       
+ 
+  padding-left:90px;
+   
+}
+ .right{
+     justify-content: center;
+      align-items: center; 
+      width:50vw;
+      height:70vh;
+      padding-top:90px;
+    }
+ .video{
+   width:50vw;
+      height:60vh; 
+ }
+
+ 
+.button1, .button2 {
+  padding: 5px 5px;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* removes underline */
+  display: inline-block;
+}
+
+.button1 {
+  background-color: rgb(167, 72, 21);
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: rgb(167, 72, 21);
+}
+
+.button1:hover, .button2:hover {
+  background-color: black;
+  color: rgb(167, 72, 21);
+}
+
+
+ 
+ hr{
+    margin:30px 30px;
+    height:3px;
+    background-color:rgb(8, 10, 40);
+    border:none
+ }
+ 
+.aboutmesection{
+   
+    height:150vh;
+    max-width: 80vw;
+    
+    
+   
+    
+ }
+ 
+ 
+ 
+ .about-me{
+        font-size: 1.5rem;
+        margin-left:40px;
+        display:inline;
+        color:rgb(167, 72, 21);
+      
+   
+ }
+ .veticalline{
+    height:2px;
+    width:124px;
+    background-color:gray;
+    margin-left:35px;
+ }
+ .text{
+  margin-left:30px;
+    color:gray;
+
+ }
+ .aboutcontent{
+    margin-top:0px; 
+    height:70vh;
+     width:90vw;
+    
+     margin-left:40px;
+
+
+ }
+ .aboutcontent p {
+  color: gray; 
+  line-height: 1.6;
+}
+
+.aboutcontent strong {
+  color: white; /* Strong (bold) text will be white */
+}
+ .skillsection{
+    
+    height:80vh;
+    max-width: 80vw;
+    
+ }
+
+
+
+ 
+ .skillsection .box {
+  width: 1200px;
+  height: 1px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left:215px;
+  margin-right:50px;
+  display:flex;
+   justify-content: space-evenly;
+  
+   
+}
+.skillsection .lines {
+  
+    width:1px;
+    height:60px;
+    background-color: white;
+    
+    
+
+    
+    
+    
+
+}
+.image{
+   width:40px;
+   position:relative;
+   top: -30px;
+    left: -10px;
+}
+.jsimage{
+       width: 15px;
+    position: relative;
+    top: -30px;
+    left: -6px;
+}
+.skillname{
+  position:relative;
+ top: 34px;
+    left: -15px;
+}
+
+
+.skilldesc{
+    position:relative;
+    top: 60px;
+    left: -40px;
+    width: 150px;
+    color:gray;
+
+    font-size:12px;
+}
+.projectsection {
+  height: auto;
+  max-width: 90vw;
+  margin: 60px auto;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  width: 300px;
+  background-color: rgb(24, 20, 57);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-title {
+  margin-top: 15px;
+  font-size: 20px;
+  color: rgb(167, 72, 21);
+}
+
+.project-desc {
+  margin-top: 10px;
+  color: gray;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.contactsection{
+   height:80vh;
+}
+.contact-details{
+   margin-top:50px;
+   display:flex;
+   justify-content: space-around;
+   
+}
+.contact1{
+   width: 200px;
+
+   height:50vh;
+   margin-top:10px;
+ 
+  display: flex;              /* Add flex */
+  flex-direction: column;     /* Stack items vertically */
+  align-items: center;        /* Center horizontally */
+  justify-content: center;    /* Center vertically */
+  text-align: center; 
+ 
+ 
+}
+.contact1 p{
+   color:gray;
+}
+.contact1 h3{
+   color:white;
+}
+
+
+
+.contact-image{
+      height: 100px;
+    width: 106px;
+    border-radius:50%;
+    margin-left: 18px;
+}
+
+
+
+
+
+   
+ 
+  
+ 
+  
+
+
+
+
